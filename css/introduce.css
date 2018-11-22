@@ -1,0 +1,100 @@
+﻿#content {
+    height: 1600px;
+}
+
+.teacher_right {
+    float: left;
+    width: 230px;
+    padding-top: 110px;
+}
+
+/**********************右边进度条 Start*************************/
+.list_right {
+    list-style: none;
+    color: #333;
+    border: 1px solid #DDDDDD;
+    border-right: 0;
+    margin-top: 20px;
+    font-size: 13px;
+    clear: both;
+    border-top: 2px solid #F10215;
+    padding-bottom: 10px;
+}
+
+    .list_right li {
+        line-height: 25px;
+        padding-left: 8px;
+    }
+
+        .list_right li a:link, .list_right li a:visited {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .list_right li a:hover {
+            color: #F10215;
+        }
+
+.list_title {
+    background: #fff;
+    margin-bottom: 10px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+/*********************右边进度条   End*********************/
+/*********************左边部分  Start*********************/
+
+.tea_in {
+    text-align: center;
+    color: #999999;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.teacher_content {
+    background: #fff;
+}
+
+.teacher_left {
+    float: left;
+    width: 740px;
+    padding-left: 10px;
+    clear: both;
+}
+
+
+
+/*********************左边部分内容  Start*********************/
+#subtime {
+    color: #999;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.label {
+    font-size: 13px;
+    color: #999;
+    line-height: 42px;
+    border-bottom: 1px solid #DDDDDD;
+    width: 680px;
+}
+
+    .label a:link, .label a:visited {
+        color: #999;
+        text-decoration: none;
+        margin-left: 5px;
+    }
+
+.intro_p {
+    margin-top: 30px;
+    width: 680px;
+    font-size: 16px;
+    line-height: 30px;
+    word-spacing: normal;
+    text-indent: 2em;
+}
+
+
+/*********************左边部分内容  End*********************/

@@ -1,0 +1,137 @@
+/******************************工具条 Start********************************/
+.resource_tools
+{
+	height: 40px;
+	background: #F8F8F8;
+	border:1px solid #E4E4E4;
+	line-height: 16px;
+	font-size: 12px;
+	overflow: hidden;
+}
+.resource_tools li{
+	float: left;
+	list-style: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	height: 16px;
+	color: #666;
+	border-right: 1px solid #E4E4E4;
+}
+
+.tools_bright{
+	border-right: 0 !important;
+	background:#fff;
+	border-left:1px solid #E4E4E4;
+	float:right !important;
+
+}
+.tools_bright a:link,.tools_bright a:visited{
+	color: #F10215;
+	text-decoration: none;
+}
+
+
+/**********************二级菜单  Start***********************/
+.resource_tools{
+	margin-top: 20px;
+}
+.resource_tools li{
+	cursor: pointer;
+}
+/*下拉菜单*/
+.resource_tools li:hover ul{
+	display: block;
+}
+
+.resource_tools li ul{
+	position:absolute;
+	display: none;
+}
+.resource_tools li ul li{
+	float: none;
+	border:1px solid #E4E4E4;
+	border-top: none;
+	width: 48px;
+	height: 20px;
+	top: 10px;
+	left: -21px;
+	position:relative;
+	background: #F8F8F8;
+	
+}
+.resource_tools li ul li a:link,.resource_tools li ul li a:visited{
+	color: #666;
+	text-decoration: none;
+}
+.resource_tools li ul li a:hover{
+	color: #F10215;
+	text-decoration: none;
+}
+
+
+/******************************工具条 End********************************/
+
+/******************************资源下载列表 Start********************************/
+.list_resource{
+	margin-top: 24px;
+	border-bottom: 1px solid #dddddd;
+	height: 140px;
+}
+.list_resource img{
+	border-radius: 50%;
+	float: left;
+}
+.item_content{
+	float: left;
+	width: 900px;
+	font-size: 12px;
+	color: #666;
+	margin-left: 18px
+}
+.item_link:link,.item_link:visited{
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+}
+.item_body{
+	margin-top: 12px;
+}
+
+.item_others
+{
+	list-style: none;
+	margin-top: 25px;
+}
+.item_others li{
+	float: left;
+	color: #666;
+	margin-right: 24px;
+	height: 14px;
+}
+.item_others li img{
+	margin-right: 5px;
+}
+.item_others .download{
+	float: right !important;
+}
+.download button{
+	background: #111111;
+	border: none;
+	height: 32px;
+	width: 64px;
+	border-radius:3px;
+	color: #fff;
+
+}
+.download button:hover{
+	background: #845600;
+	cursor: pointer;
+}
+#content{
+	height: 1150px;
+}
+
+
+/******************************资源下载列表 End********************************/

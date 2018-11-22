@@ -1,0 +1,139 @@
+﻿#content {
+    border: 0;
+    height: 1080px;
+}
+
+
+/*********************教师简介  Start*********************/
+.teacher_intro {
+    margin-top: 35px;
+    height: 115px;
+    background: #fff;
+    padding: 25px 0 0 20px;
+}
+
+.image_user {
+    border-radius: 50px;
+    margin-right: 30px;
+    float: left;
+}
+
+#intro {
+    float: left;
+    color: #666;
+}
+
+    #intro p {
+        line-height: 38px;
+    }
+/*********************教师简介  End*********************/
+
+/*********************小工具条  Start*********************/
+.smalltools {
+    height: 45px;
+    background: #fff;
+    margin-top: 32px;
+    line-height: 45px;
+    color: #000;
+}
+
+    .smalltools span {
+        margin-left: 20px;
+    }
+/*********************小工具条  End*********************/
+
+
+/*********************出版书籍   start*********************/
+.teacher_right {
+    float: left;
+    width: 230px;
+}
+
+.list_right {
+    list-style: none;
+    color: #333;
+    border: 1px solid #DDDDDD;
+    border-right: 0;
+    margin-top: 20px;
+    font-size: 13px;
+    clear: both;
+    border-top: 2px solid #F10215;
+    padding-bottom: 10px;
+}
+
+    .list_right li {
+        line-height: 25px;
+        padding-left: 8px;
+    }
+
+        .list_right li a:link, .list_right li a:visited {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .list_right li a:hover {
+            color: #F10215;
+        }
+
+.list_title {
+    background: #fff;
+    margin-bottom: 10px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+/*********************出版书籍   End*********************/
+
+
+/*********************小工具条  Start*********************/
+.tea_in {
+    text-align: center;
+    color: #999999;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.teacher_content {
+    background: #fff;
+}
+
+.teacher_left {
+    float: left;
+    width: 750px;
+}
+
+
+.time_tools {
+    margin-top: 5px;
+    border-left: 1px solid #F10215;
+    width: 0;
+    height: 500px;
+    margin-top: 35px;
+    float: left;
+}
+
+#teacher_time {
+    float: left;
+    width: 600px;
+    margin-top: 30px;
+}
+
+
+/*时间轴*/
+.circor {
+    background: #F10215;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-left: -5px;
+    float: left;
+    margin-top: 5px;
+}
+
+.intro {
+    float: left;
+    margin-left: 20px;
+    color: #333;
+}
+/*********************小工具条  Start*********************/

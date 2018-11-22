@@ -1,0 +1,15 @@
+﻿td {
+    width: 200px;
+}
+
+table {
+    border: 1px solid #F10215;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+tr, td {
+    border: 0;
+    border-bottom: 1px solid #F10215;
+}

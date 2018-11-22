@@ -1,0 +1,187 @@
+#content {
+    height: 800px;
+}
+
+.login_banner {
+    margin-top: 20px;
+}
+
+.banner {
+    position: relative;
+    list-style: none;
+    float: left;
+    margin-left: 3px;
+}
+
+    .banner li {
+        float: left;
+        width: 700px;
+    }
+
+/**************************用户栏目    Start************************************/
+.users {
+    float: left;
+    width: 200px;
+    border: 1px solid #DDDDDD;
+    width: 240px;
+    height: 270px;
+    margin-left: 10px;
+    padding: 30px 0 0 20px;
+    background: #fff;
+}
+
+    .users img {
+        border-radius: 50%;
+        float: left;
+    }
+
+.users_info {
+    float: left;
+    line-height: 35px;
+    margin-left: 5px;
+    color: #666;
+}
+
+.btnlogin {
+    clear: both;
+    margin-top: 110px;
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 10px;
+}
+
+    .btnlogin button {
+        background: #fff;
+        border: 1px solid #F10215;
+        cursor: pointer;
+        width: 85px;
+        height: 30px;
+    }
+
+        .btnlogin button:hover {
+            background: #F10215;
+            color: #fff;
+        }
+
+.users_others {
+    line-height: 30px;
+    width: 90%;
+    margin-top: 8px;
+    font-size: 13px;
+}
+/**************************用户栏目    End************************************/
+
+/**************************学习路线    Start************************************/
+.learn_line {
+    clear: both;
+    padding-left: 8px;
+    margin-top: 10px;
+}
+
+.learn_box {
+    width: 300px;
+    height: 70px;
+    border: 1px solid #6A86CF;
+    line-height: 70px;
+    float: left;
+    margin-right: 22px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.learn_line_content, .learn_line_img {
+    float: left;
+}
+
+.learn_line_img {
+    background: #fff;
+    width: 30%;
+    height: 70px;
+    padding-top: 7px;
+    height: 63px;
+    padding-left: 30px;
+}
+
+.learn_line_content {
+    background: #8099E5;
+    width: 60%;
+    text-align: center;
+    color: #fff;
+}
+/**************************学习路线    End************************************/
+
+.company {
+    clear: both;
+    height: 200px;
+    margin-top: 180px;
+    margin-left: 5px;
+}
+
+    .company h3 {
+        font-weight: normal;
+    }
+
+.company_link {
+    display: block;
+    width: 148px;
+    height: 48px;
+    background: url('img/company01.png') no-repeat center #fff;
+    border: 1px solid #dddddd;
+    float: left;
+    margin: 0 5px;
+    margin-top: 20px;
+}
+/************************************Banner**********************************/
+
+.banner_base {
+    position: relative;
+    overflow: hidden;
+    width: 700px;
+    height: 308px;
+    float: left;
+}
+
+.banner {
+    width: 30000px;
+    height: 308px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+    .banner li {
+        float: left;
+        width: 700px;
+        height: 308px;
+        overflow: hidden;
+    }
+
+
+.banner_base dl {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    list-style: none;
+}
+
+    .banner_base dl li {
+        float: left;
+        width: 15px;
+        height: 15px;
+        background: #fff;
+        margin-left: 5px;
+        cursor: pointer;
+        font-size: 10px;
+        line-height: 15px;
+        border-radius: 15px;
+    }
+
+    .banner_base dl .current {
+        background: #F10215;
+        color: #fff;
+    }
+/************************************Banner**********************************/

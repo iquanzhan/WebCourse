@@ -1,0 +1,70 @@
+td {
+	width: 200px;
+}
+
+table {
+	border: 1px solid #F10215;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+tr, td {
+	border: 0;
+	border-bottom: 1px solid #F10215;
+}
+
+
+
+
+/********************课程信息  Start************************/
+.course_box {
+	height: 140px;
+	
+	background: #fff;
+	color:#666;
+	margin-top:20px;
+	width:680px;
+}
+
+.course_box:hover {
+	cursor: pointer;
+}
+
+.course_box img {
+	float: left;
+}
+
+.box_right {
+	float: left;
+	margin-left: 8px;
+	margin-top: 10px;
+	font-size: 12px;
+	width: 420px;
+	line-height: 20px;
+}
+
+.box_right h3 {
+	color: #333;
+}
+
+.box_tea {
+	color: #999;
+	margin-top: 3px;
+}
+
+.box_content {
+	color: #666;
+	margin-top: 8px;
+}
+.box_time {
+	padding-right:8px;
+	margin-top:10px;
+	border-right:1px solid #cacaca;
+	margin-right:8px;
+}
+.box_course {
+	margin-top:5px;
+}
+
+/********************课程信息  End************************/

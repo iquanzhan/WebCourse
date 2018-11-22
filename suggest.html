@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta charset="UTF-8">
+    <title>Web前端学习大纲|Web开发技术-山东师范大学历山学院</title>
+    <link href="css/globle.css" rel="stylesheet" />
+    <link href="css/introduce.css" rel="stylesheet" />
+    <link href="css/suggest.css" rel="stylesheet" />
+    <script src="js/index.js"></script>
+    <script src="js/suggest.js"></script>
+</head>
+
+<body>
+
+    <div id="top">
+
+        <div id="top_inner">
+            <span class="smalltitle">欢迎进入<font color="#f10215">历山学院课程中心</font></span>
+
+            <ul>
+                <li>
+                    <a href="#">你好，请登录</a>
+                </li>
+                <li>
+                    <a href="#">我的课程</a>
+                </li>
+                <li>
+                    <a href="#">校园内网</a>
+                </li>
+                <li>
+                    <a href="#">学院新闻</a>
+                </li>
+                <li>
+                    <a href="http://www.lsxy-edu.com/index.html">学校首页</a>
+                </li>
+                <li>
+                    <a href="#">网站导航</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="nav">
+        <img src="img/logo.jpg" width="100" />
+        <div id="search_box">
+            <input id="search" type="text" placeholder="请搜索课程名或者老师" /><input id="btnsearch" type="button" />
+            <div id="hot">
+                <ul>
+                    <li>
+                        <a href="#" style="color: #F10215;">Web设计</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Java 编程</a>
+                    </li>
+                    <li>
+                        <a href="#">SQL 数据库</a>
+                    </li>
+                    <li>
+                        <a href="#">数据结构</a>
+                    </li>
+                    <li>
+                        <a href="#">计算机组成原理</a>
+                    </li>
+                    <li>
+                        <a href="#">多媒体课程设计</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="qrcode">
+            <a href="javascript:void" id="phone_link">用手机访问</a>
+            <img src="img/phone.png" />
+        </div>
+        <div id="qrcode_block">
+            <img src="img/erweima.png" id="img_qrcode" height="100" />
+        </div>
+    </div>
+    <div id="menu">
+        <ul id="menu_tools">
+            <li>
+                <a href="index.html">首页</a>
+            </li>
+            <li>
+                <a href="teacher.html">主讲教师</a>
+            </li>
+            <li>
+                <a href="introduce.html">实践大纲</a>
+            </li>
+            <li>
+                <a href="project.html">实践项目</a>
+            </li>
+            <li>
+                <a href="design.html">课程设计</a>
+            </li>
+            <li>
+                <a href="source.html">教学资源</a>
+            </li>
+            <li class="active">
+                <a href="suggest.html">意见反馈</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="content">
+        <div class="inner_nav">
+            <a href="index.html">首页</a>&gt;
+            <a href="index.html">网页设计</a>&gt;
+            <a href="introduce.html">意见反馈</a>
+        </div>
+        <div class="suggest_title">
+            <h3>"Web开发技术课程"意见反馈</h3>
+            <div class='heading'>亲爱的用户：您对"Web开发技术课程"有任何建议，或使用中遇到的问题，请在本页反馈。</div>
+        </div>
+        <div class="suggest_body">
+            <p class='sm_title'>
+                请留下您对“Web开发技术课程”的意见或建议。（请填写）<span id="suggest_error" class="error">*请填写内容</span>
+            </p>
+            <p>
+                <textarea id="suggestContent" cols="80" rows="12"></textarea>
+            </p>
+
+
+            <p class='sm_title' style='margin-bottom:12px;'>您使用"Web开发技术课程"首页的过程中，总体的满意程度如何？（单选）<span id="manyi_error" class="error">*请至少选择一项</span></p>
+            <div class='radio_sele'>
+                <input type="radio" id="all_1" name="AllPopulation" value="1" /><label for="all_1">非常不满意</label>
+            </div>
+
+
+            <div class='radio_sele'>
+                <input class='radio_sele' type="radio" id="all_2" name="AllPopulation" value="2" /><label for="all_2">
+                    比较不满意
+                </label>
+            </div>
+            <div class='radio_sele'>
+                <input class='radio_sele' type="radio" id="all_3" name="AllPopulation" value="3" /><label for="all_3">
+                    一般
+                </label>
+            </div>
+            <div class='radio_sele'>
+                <input class='radio_sele' type="radio" id="all_4" name="AllPopulation" value="4" /><label for="all_4">
+                    比较满意
+                </label>
+            </div>
+            <div class='radio_sele'>
+                <input class='radio_sele' type="radio" id="all_5" name="AllPopulation" value="5" /><label for="all_5">
+                    非常满意
+                </label>
+            </div>
+
+
+            <p class='sm_title' style='clear:both;margin-top:50px;'>您常用的QQ号码是？（请填写）</p>
+            <p>
+
+                <input type="text" id="qqnum" size="50" /><font color="#AAAAAA">请尽量填写，以便我们及时给您回复。</font><span id="qqnum_error" class="error">请输入正确的QQ号码</span>
+            </p>
+
+            <p class='sm_title'>您常用的电子邮箱是？（请填写）</p>
+
+            <input type="text" id="mail" size="50" />
+            <font color="#AAAAAA">请尽量填写，以便我们及时给您回复。</font>
+            <span id="mail_error" class="error">请输入正确的邮箱地址</span>
+
+            <p class='sm_title'>您常用的联系电话是？（请填写）</p>
+
+            <input type="text" id="phonenum" size="50" />
+            <font color="#AAAAAA">请尽量填写，以便我们及时给您回复。</font>
+            <span id="phonenum_error" class="error">*请输入正确的联系电话</span>
+
+        </div>
+        <div id="button">
+            <input type="button" value="提交问卷" style="background-color: #F10215; width: 120px; height: 30px; color: #FFFFFF; border:0;border-radius:3px;cursor:pointer;outline:none;" onclick="suggest()" />
+        </div>
+
+
+    </div>
+
+    <div id="footer">
+        <div id="hr"></div>
+        <div id="foot_body">
+            <div class="foot_qrcode">
+                <div class="qrcode">
+                    <img src="img/qrcode_footer.png" height="100" />
+
+                    <div class="qr_title">
+                        <h3>
+                            手机访问
+                        </h3>
+                        <p>手机扫一扫即刻访问</p>
+                    </div>
+                </div>
+                <div class="qrcode" style="float: right;margin-right: 100px;">
+                    <img src="img/qrcode_footer.png" height="100" />
+
+                    <div class="qr_title">
+                        <h3>
+                            官方微信
+                        </h3>
+                        <span>手机扫一扫，学校官方动态，不再错过，来体验微校园吧</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div id="footer_content">
+            <ul>
+                <li>
+                    <a href="#">关于我们</a>
+                </li>
+                <li>
+                    <a href="#">常见问题</a>
+                </li>
+                <li>
+                    <a href="#">全站地图</a>
+                </li>
+                <li>
+                    <a href="#">意见反馈</a>
+                </li>
+                <li>
+                    <a href="#">人才招聘</a>
+                </li>
+                <li>
+                    <a href="#">媒体报道</a>
+                </li>
+            </ul>
+            <br />
+            <center style="margin-top: 20px;color: #666;">
+                Copyright © 课程设计网 2006-2016, All Rights Reserved.
+            </center>
+        </div>
+    </div>
+
+    <div id="goto">
+        <a href="#">
+            <img src="img/top.png" width="30" border="0" />
+        </a>
+
+    </div>
+
+</body>
+
+</html>
